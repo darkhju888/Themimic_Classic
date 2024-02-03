@@ -1,0 +1,36 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("The mimic Classic By MerrySubSet", "DarkTheme")
+
+
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("Chapter 1")
+
+Section:NewButton("Part 1", "ButtonInfo", function()
+    game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3507.028564453125, 43.13663864135742, -1541.9735107421875)
+end)
+Section:NewButton("Part 2", "ButtonInfo", function()
+ game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1272.7239990234375, 200.04153442382812, -2537.25)
+end)
+
+
+local Section = Tab:NewSection("Chapter 2")
+Section:NewButton("Part 1", "ButtonInfo", function()
+    game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(64.74767303466797, 60.94379806518555, -1622.5250244140625)
+end)
+Section:NewButton("Part 2", "ButtonInfo", function()
+    game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(232.6605987548828, 100.84130096435547, -595.3074951171875)
+end)
+Section:NewButton("Part 3", "ButtonInfo", function()
+    game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1055.5179443359375, 78.26939392089844, -351.45831298828125)
+end)
+
+local Section = Tab:NewSection("Chapter 3")
+Section:NewButton("Part 1", "ButtonInfo", function()
+    game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(241.43087768554688, 33.24515914916992, 450.21502685546875)
+end)
+Section:NewButton("Part 2", "ButtonInfo", function()
+    game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-299.6040954589844, 88.01011657714844, -547.1454467773438)
+end)
+Section:NewButton("Part 3", "ButtonInfo", function()
+    game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(432.0301818847656, 17.494962692260742, -844.9414672851562)
+end)
